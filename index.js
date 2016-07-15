@@ -14,7 +14,7 @@ function onInstallation(bot, installer) {
             if (err) {
                 console.log(err);
             } else {
-                convo.say('I am a bot that has just joined your team');
+                convo.say('I am a bot that has just joined your team. Every day I will teach you a new Mental Model that will help you to generate new, helpful insight for your ideas. ');
                 convo.say('You must now /invite me to a channel so that I can be of use!');
             }
         });
